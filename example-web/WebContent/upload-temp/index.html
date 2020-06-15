@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Example Web Site</title>
+<style type="text/css">
+h2 { text-align: center; color: red }
+</style>
+</head>
+<body>
+	<h2>Hello, Java Web Application Programming World</h2>
+	
+	<h4><a href="hello.action">헬로 서블릿</a></h4>
+	<h4><a href="hello2.action">헬로 서블릿 2</a></h4>
+	
+	<hr>
+	
+	<h4><a href="request-method.action">요청 메서드</a></h4>
+	<form action="request-method.action" method="get">
+		<input type="submit" value="GET 방식 요청">
+	</form>
+	<form action="request-method.action" method="post">
+		<input type="submit" value="POST 방식 요청">
+	</form>
+	
+	<hr>
+	
+	<form action="request-param.action" method="get">
+		
+		이름 : <input type="text" name="name"><!-- name: 'john doe' -->
+		<br>
+		이메일 : <input type="text" name="email">
+		<br>
+		<input type="submit" value="전송"> 
+		
+	</form>
+	
+	<form action="request-param.action" method="post">
+		
+		이름 : <input type="text" name="name"><!-- name: 'john doe' -->
+		<br>
+		이메일 : <input type="text" name="email">
+		<br>
+		<input type="submit" value="전송"> 
+		
+	</form>
+	
+	<hr>
+	
+	<h4><a href="abc/response.html">응답 컨텐츠 테스트</a></h4>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
